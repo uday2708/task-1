@@ -1,4 +1,4 @@
-ocument.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("addTaskButton").addEventListener("click", addTask);
     document.getElementById("taskInput").addEventListener("keypress", function (event) {
         if (event.key === "Enter") {
