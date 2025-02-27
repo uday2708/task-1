@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    background-image: url(day\ planner.jpg);
+opacity: 25%;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgb(135, 202, 225);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(200, 189, 96, 0.1);
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #1ce723;
+    font-size: 16px;
+}
+
+.task input {
+    flex-grow: 1;
+    border: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+.task button {
+    background: rgb(54, 220, 70);
+    color: rgb(92, 219, 82);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+}
